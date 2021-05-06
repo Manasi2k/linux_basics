@@ -6,33 +6,3 @@
                      who is a member of the group that a file belongs to, can perform on the file.
  *Other (world) permissions − The permissions for others indicate what action all other users can perform on the file.
 
-3.File Access Modes:
- The permissions of a file are the first line of defense in the security of a Unix system.
- The basic building blocks of Unix permissions are the read, write, and execute permissions,
- which have been described below −The permissions of a file are the first line of defense in the security of a Unix system. 
- The basic building blocks of Unix permissions are the read, write, and execute permissions, which have been described below −
-
- *Read
-  Grants the capability to read, i.e., view the contents of the file.
-
- *Write
-  Grants the capability to modify, or remove the content of the file.
-
- *Execute
-  User with execute permissions can run a file as a program.
-
-4.Directory Access Modes
-  Directory access modes are listed and organized in the same manner as any other file.
-  There are a few differences that need to be mentioned −
-
-  *Read
-   Access to a directory means that the user can read the contents. The user can look at the filenames inside the directory.
-
-  *Write
-   Access means that the user can add or delete files from the directory.
-
-   *Execute
-    Executing a directory doesn't really make sense, so think of this as a traverse permission.
-
-   A user must have execute access to the bin directory in order to execute the ls or the cd command.
-
