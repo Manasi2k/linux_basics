@@ -1,0 +1,128 @@
+Basic Commands in LINUX
+     So basically Commands in linux are used to execute basic as well as advance task.
+     Linux Terminal is used to execute commands.
+     Terminal act as interface command line and system.
+     They are case sensitive.
+
+Different Basic Commands and uses are:
+
+1. pwd Command
+The pwd command is used to display the location of the current working directory.
+Syntax:
+pwd 
+
+2. mkdir Command
+The mkdir command is used to create a new directory under any directory.
+Syntax:
+mkdir <directory name>  
+
+3.head Command
+The head command is used to display the content of a file. It displays the first 10 lines of a file.
+Syntax:
+head <file name>
+
+4.cd Command
+The cd command is used to change the current directory.
+Syntax:
+cd <directory name>
+
+5.cp Command
+The cp command is used to copy a file or directory.
+Syntax:
+To copy in the same directory:
+cp <existing file name> <new file name> 
+
+6. tail Command
+The tail command is similar to the head command. 
+The difference between both commands is that it displays the last ten lines of the file content.
+It is useful for reading the error message.
+Syntax:
+tail <file name> 
+
+7.ls Command
+The ls command is used to display a list of content of a directory.
+Syntax:
+ls  
+
+8.cp-r Command
+Option 'r' with the copy command can be used to copy a directory including all its content from a source directory to the destination directory.
+Syntax:
+cp -r <sourceDirectory> <destinationDirectory>  
+
+9.ping Command
+The ping command is used to check the connectivity between two nodes, that is whether the server is connected.
+It is a short form of "Packet Internet Groper."
+Syntax:
+ping <destination>  
+
+10.cat Command
+The cat command is also used as a filter. To filter a file, it is used inside pipes.
+Syntax:
+cat <fileName> | cat or tac | cat or tac |. . .   
+
+11.mv Command
+The mv command is used to move a file or a directory form one location to another location.
+Syntax:
+mv <file name> <directory path> 
+
+12.uname command
+Uname is a short form of Unix name.
+This is a very useful command in Linux, which provides hardware and software information in the current running system.
+This short manual will show you how to get all system information through the Uname command.
+Syntax:
+uname [option]
+
+13. touch Command
+The touch command is used to create empty files. We can create multiple empty files by executing it once.
+Syntax:
+touch <file name>  
+touch <file1>  <file2> ....  
+
+14.rm Command
+The rm command is used to remove a file.
+Syntax:
+rm <file name>
+
+15.top Commannd
+top command is used to show the Linux processes. 
+
+16.df Command
+The df command is used to display the disk space used in the file system.
+It displays the output as in the number of used blocks, available blocks, and the mounted directory.
+Syntax:
+df  
+
+17. rm Command
+The rm command is used to remove a file.
+Syntax:
+rm <file name>
+
+18.su Command
+The su command provides administrative access to another user. In other words, it allows access of the Linux shell to another user.
+Syntax:
+su <user name>
+
+19. exit Command
+Linux exit command is used to exit from the current shell. 
+It takes a parameter as a number and exits the shell with a return of status number.
+Syntax:
+exit  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
