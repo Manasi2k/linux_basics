@@ -4,3 +4,70 @@ It is used to handel data management of the storage.
 File name,file size, creation date, and much more information about a file is managed by file system.
 It helps to arrange the file on the disk storage.
 Linux file system is generally a built-in layer of a Linux operating system used to handle the data management of the storage.
+
+File System Structure :
+
+1. / – Root
+Every file starts from root directory.
+Only root user privilege under this.
+
+2. /bin – 
+It means User Binaries
+Commands used by all the users of the system are located here.
+
+3. /sbin –
+It means System Binaries
+Just like /bin, /sbin also contains binary executables.
+
+4. /etc –
+it means Configuration Files
+Contains configuration files required by all programs.
+
+5. /dev – 
+It means Device Files
+Contains device files.
+
+6. /proc –
+It means Process Information
+Contains information about system process.
+
+7. /var –
+It means Variable Files
+Content of the files that are expected to grow can be found under this directory.
+
+8. /tmp –
+It means Temporary Files
+Directory that contains temporary files created by system and users.
+Files under this directory are deleted when system is rebooted.
+
+9. /usr – 
+It means User Programs
+Contains binaries, libraries, documentation, and source-code for second level programs.
+
+10. /home –
+It means Home Directories
+Home directories for all users to store their personal files.
+
+11. /boot – 
+It means Boot Loader Files
+Contains boot loader related files.
+
+12. /lib – 
+It means System Libraries
+Contains library files that supports the binaries located under /bin and /sbin
+
+13. /opt – 
+It means Optional 
+Contains add-on applications from individual vendors.
+
+14. /mnt – 
+It means Mount Directory
+Temporary mount directory where sysadmins can mount filesystems.
+
+15. /media – 
+It means Removable Media Devices
+Temporary mount directory for removable devices.
+
+16. /srv –
+It means Service Data
+Contains server specific services related data.
