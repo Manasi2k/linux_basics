@@ -1,0 +1,6 @@
+Linux File System:
+
+It is used to handel data management of the storage.
+File name,file size, creation date, and much more information about a file is managed by file system.
+It helps to arrange the file on the disk storage.
+Linux file system is generally a built-in layer of a Linux operating system used to handle the data management of the storage.
