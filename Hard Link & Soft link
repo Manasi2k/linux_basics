@@ -1,0 +1,18 @@
+Hard link:
+1.These links point to the same file.
+2.It have the same inode number.
+3.They can not span over multiple filesystems.
+4.It cannot be used on directories.
+
+* Command to create a hard link is: 
+ ln  [original filename] [link name] 
+
+Soft link:
+1.It is also called as a symbolic link.
+2.It can link files on different filesystems.
+3.It can be used on directories.
+
+*Command to create a Soft link is: 
+ ln  -s [original filename] [link name] 
+
+
