@@ -106,7 +106,12 @@ su <user name>
 Linux exit command is used to exit from the current shell. 
 It takes a parameter as a number and exits the shell with a return of status number.
 Syntax:
-exit  
+exit 
+
+20.man Command 
+This command used to display the manual of any command. This providesthe description of the command specified.
+Syntax:
+man rmdir
 
 
 
