@@ -1,0 +1,10 @@
+Users in Linux:
+1.Users are accounts that can be used to login into a system.
+2.Each user is identified by a unique identification number or UID by the system. 
+3.All the information of users in a system are stored in /etc/passwd file.
+4.The hashed passwords for users are stored in /etc/shadow file.
+
+Groups in Linux:
+1.A group is a collection of users.
+2.The main purpose of the groups is to define a set of privileges like read, write,
+  or execute permission for a given resource that can be shared among the users within the group. 
