@@ -1,0 +1,35 @@
+Package Management:
+  1.It is a method of maintaining and installing software in system.
+  2.It includes updating and probably removing as well.
+  3.Package managers are used to automate the process of installing,
+    upgrading, configuring and removing programs.
+  4.There are many package manager studio for Linux/Unix based system.
+     
+    *Package Manager
+
+     1.To view the package details: yum info PACKAGENAME 
+     2.Install a package:  yum install PACKAGENAME 
+     3.Update all PAckage: yum update
+     4.Remove a package: yum remove PACKAGENAME
+     5.To view transaction history: yum remove PACKAGENAME
+     6.To reverse a transaction: yum history undo INDEXNUMBER
+
+ Yam Package Manager:
+  1.It is Yellowdog Updater Modified.
+  2.It is command line package manager for RPM based Linux distribution 
+    such as CentOS,Fedora and RedHat.
+  3.It enables us to install a package and all its dependencies, delete 
+    package, upgrade existing packages, search for packages etc.
+  4.Syntax of Yam Command :
+    yam[OPTIONS][COMMAND][PACKAGE]
+  
+ Yam Repository:
+   1.It is warehouse of linux software.
+   2.It holds a number of.  RPM package file and enable download and installation
+     of new software on our VPS.
+   *Yum Repository
+
+    1.File must exist in the /etc/yum.repos.d/ directory
+    2.File must have an extension .repo
+    3.If GPG check is enabled then GPG key must be mentioned
+   
