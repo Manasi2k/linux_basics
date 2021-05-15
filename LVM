@@ -1,0 +1,15 @@
+LVM:
+  1. It is logical volume manager.
+  2. It is a device mapper framework that provides logical volume management for the Linux kernel.
+  3. It is used for creating single logical volumes of multiple physical volumes for entire hard disk allowing for dynamic volume resizing.
+  4. Most modern Linux distributions are LVM aware to point of being able to have their root file system on a logical volume.
+  5. Performing consistent backups by taking snapshots of the logical volume.
+
+
+* Commands:
+  1.create a pv    - pvcreate [devices]
+  2.show a pv      - pvdisplay
+  3.create a vg    - vgcreate vgname [pv]
+  4.show a vg      - vgdisplay
+  5.create a lv    - lvcreate -n name -L [size] name
+  6.show a lv      - lvdisplay
